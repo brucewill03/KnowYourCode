@@ -23,3 +23,29 @@ body{
     font-family: fantasy;
     background-color: whitesmoke
 }
+#quiz {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:yellow;
+}
+
+h4 {
+    padding: 12px 10px 12px 10px;
+}
+
+button {
+    border:;
+    background-color:none;
+    padding: 8px 15px 8px 15px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+ button:hover {
+     transistion-duration: 0.5s;
+     background-color:turquoise
+    
+}
+
