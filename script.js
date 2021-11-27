@@ -89,6 +89,26 @@ function getScore() {
     document.getElementById("quizBody").innerHTML = quizContent;
 }
 
+function getHighscore() {
+    var quizContent = `
+    <h2>` + localStorage.getItem("highscoreName") + `'s highscore is:</h2>
+    <h1>` + localStorage.getItem("highscore") + `</h1><br> 
+    
+    <button onclick="CloseHighscore()">Close!</button>
+    
+    `;
+
+    document.getElementById("displayHighscore").innerHTML = quizContent;
+}
+
+function CloseHighscore() {
+    document.getElementById("displayHighscore").innerHTML = "";
+}
+
+
+
+
+
 //clears the score name and value in the local storage if the user selects 'clear score'
 function clearScore() {
     localStorage.setItem("highscore", "");
@@ -122,12 +142,14 @@ function resetGame() {
 //deduct 15seconds from the timer if user chooses an incorrect answer
 function incorrect() {
     timeLeft -= 15; 
+    alert ("Incorrect Response");
     next();
 }
 
 //increases the score by 20points if the user chooses the correct answer
 function correct() {
     score += 20;
+    alert ("Correct Response");
     next();
 }
 
