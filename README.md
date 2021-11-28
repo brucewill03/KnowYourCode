@@ -12,4 +12,4 @@ This website will serve as a quiz to challenge your knowledge on basic coding. T
 # Website 
 https://brucewill03.github.io/KnowYourCode/
 
-![ScreenShot3](https://github.com/brucewill03/KnowYourCode/raw/main/Images/ScreenShot3.png)
+![ScreenShot3](https://github.com/brucewill03/KnowYourCode/raw/main/Images/Screenshot3.png)
