@@ -61,7 +61,7 @@ function endGame() {
 
     var quizContent = `
     <h2>Game over!</h2>
-    <h3>You receceived a ` + score +  ` /100!</h3>
+    <h3>You received a ` + score +  ` /100!</h3>
     <h3>Which means you got ` + score / 20 +  ` questions correct!</h3>
     <input type="text" id="name" placeholder="First name"> 
     <button onclick="setScore()">Set score!</button>`;

@@ -22,7 +22,8 @@
 
 body{
     font-family: fantasy;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    color:black;
 }
 #quiz {
     text-align: center;
